@@ -1,0 +1,97 @@
+//Most Preferred 4
+.most-preferred-4
+  width: 100%
+
+.most-preferred-4__header
+  font-weight: 300
+  font-size: 20.62px
+  letter-spacing: -1px
+  text-transform: uppercase
+  margin-top: 0
+  margin-bottom: 20px
+
+  +xxs
+    font-size: 18px
+
+.most-preferred-4__container
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: center
+
+  +xs
+    overflow: auto
+    white-space: nowrap
+
+.most-preferred-4__product
+  border: 1px solid $color-silver
+  width: 22.3%
+  margin-left: 2.75%
+
+  +xs
+    min-width: 130px
+
+  &:first-of-type
+    margin-left: 0
+
+
+.most-preferred-4__name
+  font-size: 11.1px
+  text-transform: capitalize
+  color: $color-scorpion
+  font-weight: 700
+  text-align: center
+  display: block
+  margin-top: 23px
+  margin-bottom: 10px
+
+.most-preferred-4__figure
+  width: 70%
+  margin: 5px auto 20px
+
+.most-preferred-4__img
+  width: 100%
+  height: auto
+
+.most-preferred-4__button-box
+  display: flex
+  justify-content: center
+  margin-bottom: 11px
+
+
+.most-preferred-4__price-box
+  text-transform: uppercase
+  text-align: center
+  display: inline-block
+  background-color: $color-button
+  color: $color-white
+  margin-right: 5px
+  height: 20px
+  line-height: 20px
+  padding: 0 7px
+  padding-right: 16px
+  position: relative
+
+.most-preferred-4__price
+  font-size: 11.21px
+
+.most-preferred-4__currency
+  font-size: 7.2px
+  vertical-align: top
+  position: absolute
+  top: -2px
+
+.most-preferred-4__addcart
+  text-transform: uppercase
+  background-color: $color-button
+  color: $color-white
+  font-size: 7.2px
+  display: inline-block
+  height: 20px
+  line-height: 20px
+  padding: 0 7px
+
+  &:hover,
+  &:focus,
+  &:active
+    color: $color-white

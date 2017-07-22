@@ -1,0 +1,94 @@
+//Foods
+.foods
+  width: 100%
+
+.foods__group
+  width: 100%
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  margin-top: 25px
+
+  &:first-of-type
+    margin-top: 0
+
+  &:last-of-type
+    margin-bottom: 40px
+
+  +xs
+    overflow: auto
+    white-space: nowrap
+
+.foods__food
+  width: 31.27%
+
+  +xs
+    min-width: 170px
+    margin-left: 5px
+    margin-right: 5px
+
+//Food
+.food
+  border: 1px solid $color-silver
+  overflow: hidden
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.food__figure
+  overflow: hidden
+
+.food__img
+  width: 100%
+  height: auto
+
+.food_name
+  font-weight: 700
+  font-size: 13px
+  color: $color-scorpion
+  text-transform: capitalize
+  margin-top: 25px
+  margin-bottom: 10px
+
+.food__button-box
+  display: flex
+  flex-direction: row
+  justify-content: center
+  max-height: 30px
+  margin-bottom: 20px
+
+.food__price-box
+  color: $color-white
+  background-color: $color-red
+  text-transform: uppercase
+  padding: 10px
+  padding-right: 20px
+  margin-right: 5px
+  line-height: 100%
+  position: relative
+
+.food__price
+  font-size: 17.55px
+  vertical-align: middle
+
+.food__currency
+  font-size: 10px
+  position: absolute
+  top: 5px
+
+.food__addcart
+  color: $color-white
+  background-color: $color-red
+  border: 1px solid $color-red
+  text-transform: uppercase
+  padding: 10px
+  font-size: 11.30px
+  margin-left: 5px
+  line-height: 100%
+  transition: 200ms
+
+  &:hover,
+  &:focus,
+  &:active
+    background-color: darken($color-red, 5%)
+    color: $color-white

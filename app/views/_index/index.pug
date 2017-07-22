@@ -1,0 +1,52 @@
+extends ../_layout-ecommerce.pug
+
+block content
+  //Index Page
+  .index
+    .container
+      .row
+        .col-md-8
+          .index__most-preferred-4
+            //Most Preferred-4
+            .most-preferred-4
+              h2.most-preferred-4__header most preferred products
+              .most-preferred-4__container
+                .most-preferred-4__product
+                  span.most-preferred-4__name product 1
+                  figure.most-preferred-4__figure
+                    img.most-preferred-4__img(src="http://lorempixel.com/207/183" alt="Product 1")
+                  .most-preferred-4__button-box
+                    .most-preferred-4__price-box
+                      span.most-preferred-4__price 100
+                      span.most-preferred-4__currency tl
+                    a.most-preferred-4__addcart(href="#") add to cart
+                .most-preferred-4__product
+                  span.most-preferred-4__name product 2
+                  figure.most-preferred-4__figure
+                    img.most-preferred-4__img(src="http://lorempixel.com/207/183" alt="Product 2")
+                  .most-preferred-4__button-box
+                    .most-preferred-4__price-box
+                      span.most-preferred-4__price 110
+                      span.most-preferred-4__currency tl
+                    a.most-preferred-4__addcart(href="#") add to cart
+                .most-preferred-4__product
+                  span.most-preferred-4__name product 3
+                  figure.most-preferred-4__figure
+                    img.most-preferred-4__img(src="http://lorempixel.com/207/183" alt="Product 3")
+                  .most-preferred-4__button-box
+                    .most-preferred-4__price-box
+                      span.most-preferred-4__price 200
+                      span.most-preferred-4__currency tl
+                    a.most-preferred-4__addcart(href="#") add to cart
+                .most-preferred-4__product
+                  span.most-preferred-4__name product 4
+                  figure.most-preferred-4__figure
+                    img.most-preferred-4__img(src="http://lorempixel.com/207/183" alt="Product 4")
+                  .most-preferred-4__button-box
+                    .most-preferred-4__price-box
+                      span.most-preferred-4__price 500
+                      span.most-preferred-4__currency tl
+                    a.most-preferred-4__addcart(href="#") add to cart
+        .col-md-3.col-md-offset-1
+          aside.sidebar
+            h3.sidebar__h3 sidebar
